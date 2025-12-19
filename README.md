@@ -1,5 +1,5 @@
-# 🧬 BioMutation
-**A High-Throughput Graphical Platform for Biomolecular Mutagenesis and Structural Analysis**
+#  BioMutation : A portable graphical user interface for mutagenesis and Feature Analysis in proteins, nucleic acids, and their complexes
+
 
 ---
 
