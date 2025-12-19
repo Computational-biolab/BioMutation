@@ -103,17 +103,6 @@ BioMutation supports a wide range of research and industrial applications, inclu
 - Compatible with standard molecular modeling and simulation tools
 - Designed for scalability and extensibility
 
----
-
-## Repository Structure
-BioMutation/
-├── app/ # Main GUI application
-├── mutation_scripts/ # Protein and nucleic acid mutation engines
-├── structure_analyzer/ # PDB Structure Analyzer module
-├── examples/ # Sample input and output files
-├── docs/ # Documentation and user guides
-├── requirements.txt
-└── README.md
 
 
 ---
