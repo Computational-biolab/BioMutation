@@ -1,4 +1,136 @@
-# BioMutation
-Proteins and nucleic acid mutations play a critical role in understanding mechanisms underlying diseases, evolutionary biology, and therapeutic targeting. Mutational studies provide insights into biomolecular structure, dynamics, and their interactions with macromolecules or small molecules. However, the scarcity of tools offering high-throughput mutation capabilities within user-friendly interfaces presents significant challenges in computational mutagenesis studies. We introduce BioMutation, a multifunctional graphical user-interface (GUI) designed to perform mutations in proteins, nucleic acids, or their complexes in a high-throughput and user-friendly manner. BioMutation employs Python-based scripts to execute i) user-defined mutations or all possible amino acid class-wise mutations in proteins or their complexes, or ii) introduce user-specific (in DNA/RNA) or all possible di-/tri-/tetrameric (in DNA) mutations in nucleic acids or their complexes. The platform enables users to create a comprehensive library of mutant structures in PDB,MOL2 and mmCIF  formats for further computational analysis, including molecular docking, molecular dynamics simulations, and binding affinity predictions. The applications of BioMutation webserver span multiple domains, including drug discovery, where it can be used to explore resistance mechanisms by modeling mutations in therapeutic targets. It is invaluable for designing optimized protein variants for industrial and therapeutic purposes, such as engineering enzymes or antibodies. Additionally, the tool can assist in studying nucleic acid-protein interactions, aptamer design, and investigating mutations implicated in genetic diseases. 
-# BioMutation Structure Analyzer
-BioMutation tool also brings up a PDB Structure Analyzer tool, which can be used after mutating structures using BioMutation for analysing change in features of the protein, nucleic acid chains and their complexes in a downaloadable tabular form. This tool may be used as a solo tool for PDB structures. This tool is incorporated along with the BioMutation tool and can be accessed via BioMutaton homepage. 
+# 🧬 BioMutation
+**A High-Throughput Graphical Platform for Biomolecular Mutagenesis and Structural Analysis**
+
+---
+
+## Overview
+
+Mutations in proteins and nucleic acids play a fundamental role in understanding the molecular mechanisms underlying diseases, evolutionary processes, and therapeutic targeting. Systematic mutational studies provide valuable insights into biomolecular structure, conformational dynamics, and interactions with macromolecules or small-molecule ligands. Despite their importance, computational mutagenesis is often limited by the lack of tools that combine high-throughput mutation capabilities with intuitive, user-friendly interfaces.
+
+**BioMutation** is a multifunctional graphical user-interface (GUI)–based platform developed to address these challenges. It enables efficient, high-throughput mutagenesis of proteins, nucleic acids, and their complexes while remaining accessible to both experimental and computational researchers. The platform supports targeted as well as exhaustive mutation strategies and is designed to seamlessly integrate with downstream structural and molecular modeling workflows.
+
+---
+
+## Key Features
+
+### Protein Mutagenesis
+- User-defined single or multiple amino acid mutations
+- Exhaustive class-wise mutations across protein sequences, including:
+  - Hydrophobic amino acids
+  - Aromatic amino acids
+  - Acidic amino acids
+  - Basic amino acids
+- Applicable to:
+  - Individual protein chains
+  - Protein–protein complexes
+  - Protein–nucleic acid complexes
+
+### Nucleic Acid Mutagenesis
+- User-specified mutations in DNA and RNA
+- Systematic generation of all possible:
+  - Di-nucleotide mutations
+  - Tri-nucleotide mutations
+  - Tetra-nucleotide mutations (DNA)
+- Supported systems:
+  - DNA
+  - RNA
+  - Nucleic acid–protein complexes
+
+---
+
+## Output Formats
+
+BioMutation generates comprehensive libraries of mutant structures in widely used and interoperable formats:
+
+- **PDB**
+- **MOL2**
+- **mmCIF**
+
+These formats are directly compatible with common computational pipelines, including:
+- Molecular docking
+- Molecular dynamics (MD) simulations
+- Binding affinity prediction
+- Structural and energetic analyses
+
+---
+
+## BioMutation Structure Analyzer
+
+In addition to mutation generation, BioMutation integrates a **PDB Structure Analyzer** module for post-mutation and standalone structural analysis.
+
+### Features
+- Analysis of structural, chemical, and molecular features
+- Chain-wise evaluation of:
+  - Proteins
+  - Nucleic acids
+  - Biomolecular complexes
+- Comparative analysis of features before and after mutation
+- Export of results in downloadable tabular formats (CSV/Excel)
+
+### Standalone Usage
+The Structure Analyzer can also be used independently to analyze any PDB structure without performing mutations, making it a versatile tool for structural bioinformatics studies.
+
+---
+
+## Applications
+
+BioMutation supports a wide range of research and industrial applications, including:
+
+- **Drug Discovery**
+  - Modeling mutation-driven drug resistance
+  - Exploring binding-site variability in therapeutic targets
+
+- **Protein Engineering**
+  - Design and optimization of enzymes and antibodies
+  - Engineering proteins with improved stability, specificity, or activity
+
+- **Nucleic Acid Research**
+  - Investigation of protein–DNA/RNA interactions
+  - Aptamer design and optimization
+  - Analysis of mutations implicated in genetic diseases
+
+- **Computational Structural Biology**
+  - High-throughput mutational scanning
+  - Structure–function relationship studies
+  - Integration with docking and free-energy calculations
+
+---
+
+## Technology Stack
+
+- Python-based backend
+- Graphical user-interface for mutation and analysis workflows
+- Compatible with standard molecular modeling and simulation tools
+- Designed for scalability and extensibility
+
+---
+
+## Repository Structure
+BioMutation/
+├── app/ # Main GUI application
+├── mutation_scripts/ # Protein and nucleic acid mutation engines
+├── structure_analyzer/ # PDB Structure Analyzer module
+├── examples/ # Sample input and output files
+├── docs/ # Documentation and user guides
+├── requirements.txt
+└── README.md
+
+
+---
+
+## License
+
+This project is released under an open-source license.  
+Please refer to the `LICENSE` file for details.
+
+
+
+---
+
+## Contributions and Support
+
+Contributions, feature requests, and bug reports are welcome.  
+Please open an issue or submit a pull request to contribute to the project.
+
+---
+
