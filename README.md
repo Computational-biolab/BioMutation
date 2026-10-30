@@ -1,7 +1,7 @@
 #  BioMutation : A portable graphical user interface for mutagenesis and Feature Analysis in proteins, nucleic acids, and their complexes
 # Direct link
-##BioMuutation can now also be found and used directly at:
-biomutation.netlify.app
+##BioMutation can now also be found and used directly at:
+#https://biomutation.netlify.app/
 
 ---
 
