@@ -2,7 +2,7 @@
 # Direct link
 ##BioMutation can now also be found and used directly at:
 
-#https://biomutation.netlify.app/
+https://biomutation.netlify.app/
 
 ---
 
